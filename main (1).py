@@ -6,7 +6,7 @@ import time
 def main():
     circle.circle_area()
     temperature.C_in_F()
-    is_even.is_even()
+    is_even.is_evens()
     time.time_in_sec()
 
 if __name__ == '__main__':
