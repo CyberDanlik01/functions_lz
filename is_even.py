@@ -1,5 +1,5 @@
 #Напишем ф-ию для проверки четности числа
-def is_even(number):
+def is_evens(number):
     if number %2 == 0:
         return True
     else:
