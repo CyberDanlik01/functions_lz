@@ -4,16 +4,19 @@ def circle_area(radius):
     return (math.pi*radius**2)
     #Площадь круга
 
-def circle_lenth(radius):
+def circle_length(radius):
     return (2* math.pi*radius)  
     #Длина окружности
 
-#Введем радиус с клавиатуры
-r = float(input("Введите радиус круга: "))
+def main():
+    r = float(input("Введите радиус круга: "))
+    area = circle_area(r)
+    length = circle_length(r)
 
-area = circle_area(r)
-lenth = circle_lenth(r)
+    #Выведем
+    print("Площадь круга:", area)
+    print("Длина окружности:", length)
 
-# Вывод результата
-print("Площадь круга:", area)
-print("Длина окружности:", lenth)
+if __name__ == "__main__":
+    main()
+
